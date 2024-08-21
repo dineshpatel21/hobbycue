@@ -1,0 +1,34 @@
+.copyright {
+  font-size: 12;
+  color: "red";
+}
+
+.Links {
+  list-style: none;
+}
+
+.Links li {
+  text-align: left;
+}
+
+.link {
+  color: "rgba(8, 9, 10, 1)";
+  text-decoration: "none";
+}
+
+@media screen and (max-width: 576px) {
+  .resp-f {
+    display: flex;
+    flex-direction: column;
+  }
+  .resp-f1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .resp-f1 h2 {
+    font-size: 14;
+    color: "rgba(8, 9, 10, 1)";
+    font-weight: "800";
+    margin-left: "0%";
+  }
+}
